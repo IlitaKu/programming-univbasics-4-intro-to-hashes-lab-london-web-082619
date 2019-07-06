@@ -26,10 +26,10 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
- hash["hello"]
- if hash["hello"]
-   return hash["hello"] +=18
- else  return hash["hello"] => 1
+ hash[:key]
+ if hash[:key]
+   return hash[:key] +=18
+ else  return hash[:key] => 1
  end
 
   # given a hash an a key as parameters, return an updated hash
